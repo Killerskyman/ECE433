@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.srcs/sources_1/new/lab1part2SCC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab1part2SCC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.srcs/sim_1/new/lab1part2ECE433SCC_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab1part2ECE433JJS_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Sep  7 16:33:36 2021
+# Process ID: 14268
+# Current directory: C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.runs/synth_1
+# Command line: vivado.exe -log lab1part2SCC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab1part2SCC.tcl
+# Log file: C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.runs/synth_1/lab1part2SCC.vds
+# Journal file: C:/Xilinx/projects/lab1part2ECE433SCC/lab1part2ECE433SCC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab1part2SCC.tcl -notrace
