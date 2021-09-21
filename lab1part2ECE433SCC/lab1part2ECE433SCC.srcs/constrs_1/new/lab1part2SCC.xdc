@@ -1,3 +1,8 @@
+#ARTHOR: SKYLER CLELAND
+#CM: 2844
+#DATE: 2021-09-07
+#PURPOSE: ECE433 LAB1PART2
+
 set_property PACKAGE_PIN J15 [get_ports A0]
 set_property PACKAGE_PIN L16 [get_ports A1]
 set_property PACKAGE_PIN M13 [get_ports A2]
