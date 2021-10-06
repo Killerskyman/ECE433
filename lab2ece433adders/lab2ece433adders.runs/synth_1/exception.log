@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Xilinx\projects\lab2ece433adders\lab2ece433adders.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

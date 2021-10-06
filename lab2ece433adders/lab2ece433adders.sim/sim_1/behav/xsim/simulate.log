@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$stop called at time : 90 ns : File "C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sim_1/new/adderSCC_tb.v" Line 27

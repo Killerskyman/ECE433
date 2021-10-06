@@ -1,0 +1,11 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sim_1/new/adderSCC_tb.v,1632208700,verilog,,,,adderSubtractorTB,,,,,,,,
+C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sources_1/new/AdderSCCversion2.v,1632208459,verilog,,C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sources_1/new/adderSCCversion1.v,,adderSCCversion2,,,,,,,,
+C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sources_1/new/adderSCCversion1.v,1632209423,verilog,,C:/Xilinx/projects/lab2ece433components/inverter4bits.v,,adderSCCversion1,,,,,,,,
+C:/Xilinx/projects/lab2ece433components/Adder1bitV1.v,1585721178,verilog,,C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sources_1/new/AdderSCCversion2.v,,Adder1bitV1,,,,,,,,
+C:/Xilinx/projects/lab2ece433components/inverter4bits.v,1585721190,verilog,,C:/Xilinx/projects/lab2ece433components/mux4bits.v,,inverter4bits,,,,,,,,
+C:/Xilinx/projects/lab2ece433components/mux4bits.v,1585721200,verilog,,C:/Xilinx/projects/lab2ece433adders/lab2ece433adders.srcs/sim_1/new/adderSCC_tb.v,,mux4bits,,,,,,,,
