@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/skillet/git/ECE433/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/skillet/git/ECE433/lab3/lab3.srcs/sim_1/new/lab3detectUnitTB.v,1633516689,verilog,,,,lab3detectUnitTB,,,,,,,,
+/home/skillet/git/ECE433/lab3/lab3.srcs/sources_1/new/lab3detect11001.v,1633515618,verilog,,/home/skillet/git/ECE433/lab3/lab3.srcs/sim_1/new/lab3detectUnitTB.v,,lab3Detect11001fall2021,,,,,,,,
