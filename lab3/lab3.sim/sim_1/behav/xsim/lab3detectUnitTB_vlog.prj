@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../lab3.srcs/sources_1/new/lab3detect11001.v" \
 "../../../../lab3.srcs/sim_1/new/lab3detectUnitTB.v" \
 
 # compile glbl module
