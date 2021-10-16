@@ -5,32 +5,23 @@
 //test bench for detect unit for lab3
 
 module lab3detectUnitTB;
-<<<<<<< HEAD
-<<<<<<< HEAD
 reg x, clk, rst;
-=======
 reg x, rst, clk;
->>>>>>> 053dff3e48178ff6e3e9bcf9cc3ca5e5d8fd6076
 wire det; wire [4:0] inBuf; wire [2:0] curState;
 lab3Detect11001fall2021 uut(x, rst, clk, det, inBuf, curState);
-=======
-//reg x, rst, clk;
-//wire det; wire [4:0] inBuf; wire [2:0] curState;
-//lab3Detect11001fall2021 uut(x, clk, rst, det, inBuf, curState);
->>>>>>> parent of 053dff3... lab3 wip
 
-//initial begin
-//    x = 0;
-//    clk = 0;
-//    rst = 0;
-//end
+initial begin
+    x = 0;
+    clk = 0;
+    rst = 0;
+end
 
-//always #10 clk = ~clk;
+always #10 clk = ~clk;
 
-//initial fork
-//    #0 rst = 0; #5 rst=1; #15 rst=0;
-//    #0 x = 0; #50 x=1; #100 x=0; #140 x=1; #180 x=0; #200 x=1; #220 x=0; #240 x=1; #280 x=0;
-//    #340 $stop;
-//join
+initial fork
+    #0 rst = 0; #5 rst=1; #15 rst=0;
+    #0 x = 0; #50 x=1; #100 x=0; #140 x=1; #180 x=0; #200 x=1; #220 x=0; #240 x=1; #280 x=0;
+    #340 $stop;
+join
 
 endmodule
