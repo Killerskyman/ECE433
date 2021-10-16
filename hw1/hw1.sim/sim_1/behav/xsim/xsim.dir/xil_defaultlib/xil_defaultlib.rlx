@@ -1,10 +1,10 @@
 0.6
 2019.2
 Nov  6 2019
-21:57:16
-C:/Xilinx/projects/hw1/hw1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-C:/Xilinx/projects/hw1/hw1.srcs/sim_1/new/MultiplierTB.v,1631612324,verilog,,,,MultiplierTB,,,,,,,,
-C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierBehavior.v,1631613362,verilog,,C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierExpressions.v,,MultiplierBehavior,,,,,,,,
-C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierExpressions.v,1631613118,verilog,,C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierGates.v,,MultiplierExpressions,,,,,,,,
-C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierGates.v,1631612460,verilog,,C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierTruthTable.v,,MultiplierGates,,,,,,,,
-C:/Xilinx/projects/hw1/hw1.srcs/sources_1/new/MultiplierTruthTable.v,1631612620,verilog,,C:/Xilinx/projects/hw1/hw1.srcs/sim_1/new/MultiplierTB.v,,MultiplierTruthTable,,,,,,,,
+21:42:20
+/home/skillet/git/ECE433/hw1/hw1.sim/sim_1/behav/xsim/glbl.v,1633487834,verilog,,,,glbl,,,,,,,,
+/home/skillet/git/ECE433/hw1/hw1.srcs/sim_1/new/MultiplierTB.v,1633487834,verilog,,,,MultiplierTB,,,,,,,,
+/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierBehavior.v,1633487834,verilog,,/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierExpressions.v,,MultiplierBehavior,,,,,,,,
+/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierExpressions.v,1633487834,verilog,,/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierGates.v,,MultiplierExpressions,,,,,,,,
+/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierGates.v,1633487834,verilog,,/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierTruthTable.v,,MultiplierGates,,,,,,,,
+/home/skillet/git/ECE433/hw1/hw1.srcs/sources_1/new/MultiplierTruthTable.v,1633487834,verilog,,/home/skillet/git/ECE433/hw1/hw1.srcs/sim_1/new/MultiplierTB.v,,MultiplierTruthTable,,,,,,,,

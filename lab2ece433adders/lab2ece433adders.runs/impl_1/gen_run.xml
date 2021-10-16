@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1632209979">
+  <File Type="CFI_FILE" Name="adderSCCversion1.cfi"/>
   <File Type="PA-TCL" Name="adderSCCversion1.tcl"/>
+  <File Type="BITSTR-MSK" Name="adderSCCversion1.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="adderSCCversion1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-ERROR-DCP" Name="adderSCCversion1_routed_error.dcp"/>
   <File Type="BITSTR-BMM" Name="adderSCCversion1_bd.bmm"/>
-  <File Type="REPORTS-TCL" Name="adderSCCversion1_reports.tcl"/>
-  <File Type="OPT-DCP" Name="adderSCCversion1_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="adderSCCversion1.hwdef"/>
-  <File Type="PWROPT-DCP" Name="adderSCCversion1_pwropt.dcp"/>
+  <File Type="RBD_FILE" Name="adderSCCversion1.rbd"/>
+  <File Type="BG-BGN" Name="adderSCCversion1.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="adderSCCversion1_routed_bb.dcp"/>
+  <File Type="PDI-FILE" Name="adderSCCversion1.pdi"/>
   <File Type="PLACE-DCP" Name="adderSCCversion1_placed.dcp"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="adderSCCversion1_incremental_reuse_pre_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="adderSCCversion1_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="adderSCCversion1.bin"/>
-  <File Type="PHYSOPT-DCP" Name="adderSCCversion1_physopt.dcp"/>
-  <File Type="BITSTR-MSK" Name="adderSCCversion1.msk"/>
-  <File Type="ROUTE-ERROR-DCP" Name="adderSCCversion1_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="adderSCCversion1_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="adderSCCversion1_routed_bb.dcp"/>
   <File Type="BITSTR-MMI" Name="adderSCCversion1.mmi"/>
-  <File Type="ROUTE-TIMING-PB" Name="adderSCCversion1_timing_summary_routed.pb"/>
+  <File Type="BG-BIN" Name="adderSCCversion1.bin"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="adderSCCversion1_postplace_pwropt.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="adderSCCversion1.hwdef"/>
+  <File Type="ROUTE-DCP" Name="adderSCCversion1_routed.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="adderSCCversion1_physopt.dcp"/>
+  <File Type="REPORTS-TCL" Name="adderSCCversion1_reports.tcl"/>
+  <File Type="BITSTR-RBT" Name="adderSCCversion1.rbt"/>
+  <File Type="RNPI_FILE" Name="adderSCCversion1.rnpi"/>
+  <File Type="OPT-DCP" Name="adderSCCversion1_opt.dcp"/>
+  <File Type="PWROPT-DCP" Name="adderSCCversion1_pwropt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="adderSCCversion1_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="adderSCCversion1_postroute_physopt_bb.dcp"/>
-  <File Type="BG-BIT" Name="adderSCCversion1.bit"/>
-  <File Type="BITSTR-RBT" Name="adderSCCversion1.rbt"/>
-  <File Type="BITSTR-NKY" Name="adderSCCversion1.nky"/>
-  <File Type="PDI-FILE" Name="adderSCCversion1.pdi"/>
   <File Type="RCFI_FILE" Name="adderSCCversion1.rcfi"/>
-  <File Type="CFI_FILE" Name="adderSCCversion1.cfi"/>
-  <File Type="RNPI_FILE" Name="adderSCCversion1.rnpi"/>
+  <File Type="BG-BIT" Name="adderSCCversion1.bit"/>
+  <File Type="BITSTR-NKY" Name="adderSCCversion1.nky"/>
+  <File Type="BG-DRC" Name="adderSCCversion1.drc"/>
   <File Type="NPI_FILE" Name="adderSCCversion1.npi"/>
-  <File Type="RBD_FILE" Name="adderSCCversion1.rbd"/>
   <File Type="BITSTR-LTX" Name="adderSCCversion1.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="adderSCCversion1.sysdef"/>
-  <File Type="BG-BGN" Name="adderSCCversion1.bgn"/>
-  <File Type="BG-DRC" Name="adderSCCversion1.drc"/>
   <File Type="RDI-RDI" Name="adderSCCversion1.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../lab2ece433components/Adder1bitV1.v">

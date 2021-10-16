@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Oct  7 02:47:39 2021
+# Process ID: 11066
+# Current directory: /home/skillet/git/ECE433/hw1/hw1.runs/impl_1
+# Command line: vivado -log MultiplierBehavior.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MultiplierBehavior.tcl -notrace
+# Log file: /home/skillet/git/ECE433/hw1/hw1.runs/impl_1/MultiplierBehavior.vdi
+# Journal file: /home/skillet/git/ECE433/hw1/hw1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source MultiplierBehavior.tcl -notrace

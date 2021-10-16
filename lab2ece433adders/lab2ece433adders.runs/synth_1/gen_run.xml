@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1632209856">
   <File Type="PA-TCL" Name="adderSCCversion1.tcl"/>
+  <File Type="RDS-DCP" Name="adderSCCversion1.dcp"/>
   <File Type="REPORTS-TCL" Name="adderSCCversion1_reports.tcl"/>
   <File Type="RDS-RDS" Name="adderSCCversion1.vds"/>
-  <File Type="RDS-DCP" Name="adderSCCversion1.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../lab2ece433components/Adder1bitV1.v">

@@ -1,11 +1,20 @@
 
 { 
+<<<<<<< HEAD
+    crc :  8630645185207799414  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 21ffb5b1ae1947208233120230677059 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab3detectUnitTB_behav xil_defaultlib.lab3detectUnitTB xil_defaultlib.glbl" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:42:20" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/lab3detectUnitTB_behav/xsimk\"   \"xsim.dir/lab3detectUnitTB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/lab3detectUnitTB_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2019.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+=======
     crc :  3613151445882765716  , 
     ccp_crc :  0  , 
     cmdline : " -wto 21ffb5b1ae1947208233120230677059 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab3detectUnitTB_behav xil_defaultlib.lab3detectUnitTB xil_defaultlib.glbl" , 
     buildDate : "Nov  6 2019" , 
     buildTime : "21:57:16" , 
     linkCmd : "C:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/lab3detectUnitTB_behav/xsimk.exe\"   \"xsim.dir/lab3detectUnitTB_behav/obj/xsim_0.win64.obj\" \"xsim.dir/lab3detectUnitTB_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+>>>>>>> 053dff3e48178ff6e3e9bcf9cc3ca5e5d8fd6076
     aggregate_nets : 
     [ 
     ] 
