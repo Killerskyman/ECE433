@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../flowLab.srcs/sources_1/imports/lab4part1sources/INT_TEST.V" \
+"../../../../flowLab.srcs/sources_1/imports/lab4part1sources/kcpsm3.v" \
+"../../../../flowLab.srcs/sources_1/imports/lab4part1sources/kcpsm3_int_test.v" \
+"../../../../flowLab.srcs/sources_1/imports/lab4part1sources/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

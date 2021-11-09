@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE433/lab4/flowLab/flowLab.srcs/sources_1/imports/lab4part1sources/INT_TEST.V" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module int_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE433/lab4/flowLab/flowLab.srcs/sources_1/imports/lab4part1sources/kcpsm3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kcpsm3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE433/lab4/flowLab/flowLab.srcs/sources_1/imports/lab4part1sources/kcpsm3_int_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module kcpsm3_int_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE433/lab4/flowLab/flowLab.srcs/sources_1/imports/lab4part1sources/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/skillet/git/ECE433/lab4/flowLab/flowLab.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
