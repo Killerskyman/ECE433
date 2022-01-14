@@ -1,0 +1,92 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Tue Nov 30 15:15:34 2021
+| Host         : skilletLaptop running 64-bit Debian GNU/Linux 10 (buster)
+| Command      : report_control_sets -verbose -file PongGame2021fall_template_control_sets_placed.rpt
+| Design       : PongGame2021fall_template
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |           15 |
+| No           | No                    | Yes                    |               3 |            1 |
+| No           | Yes                   | No                     |              26 |            9 |
+| Yes          | No                    | No                     |              22 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             129 |           39 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+|   Clock Signal   |                     Enable Signal                    |                    Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++------------------+------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+|  Clock_IBUF_BUFG | VGAdisplay/vsyncModule/lineClockUnit/State_reg[1]_0  |                                                       |                3 |              4 |
+|  Clock_IBUF_BUFG | VGAdisplay/vsyncModule/lineClockUnit/State_reg[1]_0  | Reset_IBUF                                            |                4 |              6 |
+|  Clock_IBUF_BUFG | gameUnit/missTimer                                   | VGAdisplay/vsyncModule/YPositionCounter/SS[0]         |                2 |              6 |
+|  Clock_IBUF_BUFG | gameUnit/paddlePosition                              |                                                       |                2 |              8 |
+|  Clock_IBUF_BUFG | VGAdisplay/hsyncModule/PixelClockUnit/State_reg[0]_0 | Reset_IBUF                                            |                4 |              8 |
+|  Clock_IBUF_BUFG | VGAdisplay/vsyncModule/YPositionCounter/E[0]         |                                                       |                2 |             10 |
+|  Clock_IBUF_BUFG |                                                      | gameUnit/clear                                        |                3 |             11 |
+|  Clock_IBUF_BUFG |                                                      | Reset_IBUF                                            |                7 |             18 |
+|  Clock_IBUF_BUFG | VGAdisplay/vsyncModule/YPositionCounter/E[0]         | gameUnit/ballXdir                                     |                6 |             19 |
+|  Clock_IBUF_BUFG | gameUnit/note/UnitInput/sel0__0[0]                   | gameUnit/note/NoteDWave/WaveformCounter[0]_i_1__0_n_0 |                5 |             20 |
+|  Clock_IBUF_BUFG | gameUnit/note/UnitInput/sel0[0]                      | gameUnit/note/NoteCWave/WaveformCounter[0]_i_1_n_0    |                5 |             20 |
+|  Clock_IBUF_BUFG | gameUnit/note/UnitInput/sel0__1[0]                   | gameUnit/note/NoteEWave/WaveformCounter[0]_i_1__1_n_0 |                5 |             20 |
+|  Clock_IBUF_BUFG |                                                      |                                                       |               15 |             21 |
+|  Clock_IBUF_BUFG | VGAdisplay/vsyncModule/YPositionCounter/E[0]         | gameUnit/noteTime0_in[0]                              |                8 |             30 |
++------------------+------------------------------------------------------+-------------------------------------------------------+------------------+----------------+
+
+

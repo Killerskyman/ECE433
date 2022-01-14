@@ -1,7 +1,3 @@
 Vivado Simulator 2019.2
 Time resolution is 1 ps
-<<<<<<< HEAD
-$stop called at time : 340 ns : File "/home/skillet/git/ECE433/lab3/lab3.srcs/sim_1/new/lab3detectUnitTB.v" Line 23
-=======
-$stop called at time : 340 ns : File "C:/Xilinx/projects/lab3/lab3.srcs/sim_1/new/lab3detectUnitTB.v" Line 23
->>>>>>> 053dff3e48178ff6e3e9bcf9cc3ca5e5d8fd6076
+$stop called at time : 340 ns : File "/home/skillet/git/ECE433/lab3/lab3.srcs/sim_1/new/lab3detectUnitTB.v" Line 24

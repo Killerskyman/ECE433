@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-Running: xsim.dir/lab3detectUnitTB_behav/xsimk -simmode gui -wdb lab3detectUnitTB_behav.wdb -simrunnum 0 -socket 35999
+Running: xsim.dir/lab3detectUnitTB_behav/xsimk -simmode gui -wdb lab3detectUnitTB_behav.wdb -simrunnum 0 -socket 49897
 Design successfully loaded
-Design Loading Memory Usage: 33404 KB (Peak: 33524 KB)
-Design Loading CPU Usage: 10 ms
+Design Loading Memory Usage: 33408 KB (Peak: 33528 KB)
+Design Loading CPU Usage: 30 ms
 Simulation completed
-Simulation Memory Usage: 115400 KB (Peak: 172672 KB)
-Simulation CPU Usage: 10 ms
-=======
-Running: xsim.dir/lab3detectUnitTB_behav/xsimk.exe -simmode gui -wdb lab3detectUnitTB_behav.wdb -simrunnum 0 -socket 58625
-Design successfully loaded
-Design Loading Memory Usage: 5848 KB (Peak: 5848 KB)
-Design Loading CPU Usage: 124 ms
-Simulation completed
-Simulation Memory Usage: 6524 KB (Peak: 6524 KB)
-Simulation CPU Usage: 140 ms
->>>>>>> 053dff3e48178ff6e3e9bcf9cc3ca5e5d8fd6076
+Simulation Memory Usage: 115404 KB (Peak: 172676 KB)
+Simulation CPU Usage: 40 ms

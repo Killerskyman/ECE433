@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1638303264">
+  <File Type="PA-TCL" Name="PongGame2021fall_template.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="PongGame2021fall_template_bus_skew_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="PongGame2021fall_template_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="PongGame2021fall_template_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="PongGame2021fall_template_opt.dcp"/>
+  <File Type="OPT-DRC" Name="PongGame2021fall_template_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="PongGame2021fall_template.hwdef"/>
+  <File Type="PWROPT-DCP" Name="PongGame2021fall_template_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="PongGame2021fall_template_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PongGame2021fall_template_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PongGame2021fall_template_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PongGame2021fall_template_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PongGame2021fall_template_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PongGame2021fall_template_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PongGame2021fall_template_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="PongGame2021fall_template_physopt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PongGame2021fall_template_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="PongGame2021fall_template_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PongGame2021fall_template_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="PongGame2021fall_template_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PongGame2021fall_template_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="PongGame2021fall_template_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PongGame2021fall_template_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PongGame2021fall_template_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PongGame2021fall_template_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PongGame2021fall_template_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="PongGame2021fall_template_power_summary_routed.pb"/>
+  <File Type="BG-BIN" Name="PongGame2021fall_template.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PongGame2021fall_template_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="PongGame2021fall_template.msk"/>
+  <File Type="CFI_FILE" Name="PongGame2021fall_template.cfi"/>
+  <File Type="ROUTE-TIMING-PB" Name="PongGame2021fall_template_timing_summary_routed.pb"/>
+  <File Type="BITSTR-RBT" Name="PongGame2021fall_template.rbt"/>
+  <File Type="RNPI_FILE" Name="PongGame2021fall_template.rnpi"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PongGame2021fall_template_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="PongGame2021fall_template.nky"/>
+  <File Type="BITSTR-BMM" Name="PongGame2021fall_template_bd.bmm"/>
+  <File Type="ROUTE-CLK" Name="PongGame2021fall_template_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="PongGame2021fall_template.mmi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="PongGame2021fall_template_bus_skew_routed.rpt"/>
+  <File Type="PDI-FILE" Name="PongGame2021fall_template.pdi"/>
+  <File Type="RBD_FILE" Name="PongGame2021fall_template.rbd"/>
+  <File Type="BG-BGN" Name="PongGame2021fall_template.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="PongGame2021fall_template.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-LTX" Name="PongGame2021fall_template.ltx"/>
+  <File Type="NPI_FILE" Name="PongGame2021fall_template.npi"/>
+  <File Type="BG-DRC" Name="PongGame2021fall_template.drc"/>
+  <File Type="RCFI_FILE" Name="PongGame2021fall_template.rcfi"/>
+  <File Type="BG-BIT" Name="PongGame2021fall_template.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="PongGame2021fall_template_route_status.pb"/>
+  <File Type="RDI-RDI" Name="PongGame2021fall_template.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PongGame2021fall_template_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PongGame2021fall_template_postroute_physopt.dcp"/>
+  <File Type="ROUTE-STATUS" Name="PongGame2021fall_template_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="PongGame2021fall_template_power_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/CRTClock2021Template.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/CRTClock2021Template.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/CRTcontroller2021fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/CRTcontroller2021fall.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/FallingEdgePositiveOneShot.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/FallingEdgePositiveOneShot.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/Game2021fall.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/InputModule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/InputModule.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LineClockUnit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/ThreeMusicNotes.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/ThreeMusicNotes.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/UniversalCounter2021fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/UniversalCounter2021fall.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/WaveForm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/WaveForm.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/hsyncModule2021fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/hsyncModule2021fall.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/vsyncModule2021fallTemplate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/vsyncModule2021fallTemplate.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/PongGame2021fall_template.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/PongGame2021fall_template.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/DelayLoop.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/DelayLoop.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectGivenFiles/OriginalPong.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectGivenFiles/OriginalPong.v"/>
+        <Attr Name="ImportTime" Val="1638168990"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/NoteMap.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/NoteMap.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/PlaySoundNexysA7.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/PlaySoundNexysA7.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/PlayNote2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/PlayNote2.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FinalProjectSoundGiven/OneSecElapseTime.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FinalProjectSoundGiven/OneSecElapseTime.v"/>
+        <Attr Name="ImportTime" Val="1638186922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PongGame2021fall_template"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/PongGame.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/PongGame.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

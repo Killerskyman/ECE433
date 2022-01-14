@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1128925052903712538  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto d00343d8cc3f4da88f8cc60325d7d657 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot p4hw3fall2021counterTB_behav xil_defaultlib.p4hw3fall2021counterTB xil_defaultlib.glbl" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:42:20" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/p4hw3fall2021counterTB_behav/xsimk\"   \"xsim.dir/p4hw3fall2021counterTB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/p4hw3fall2021counterTB_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2019.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

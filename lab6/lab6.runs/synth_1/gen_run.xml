@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1638304222">
+  <File Type="VDS-TIMING-PB" Name="Lab6ece433fall2021template_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Lab6ece433fall2021template_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="Lab6ece433fall2021template.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Lab6ece433fall2021template_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Lab6ece433fall2021template_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="Lab6ece433fall2021template_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Lab6ece433fall2021template.vds"/>
+  <File Type="REPORTS-TCL" Name="Lab6ece433fall2021template_reports.tcl"/>
+  <File Type="PA-TCL" Name="Lab6ece433fall2021template.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/BCDto7Segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/BCDto7Segment.v"/>
+        <Attr Name="ImportTime" Val="1601873126"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/BaudRateGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/BaudRateGenerator.v"/>
+        <Attr Name="ImportTime" Val="1538147064"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/Debouncer2021fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/Debouncer2021fall.v"/>
+        <Attr Name="ImportTime" Val="1632971104"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/DelayLoop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/DelayLoop.v"/>
+        <Attr Name="ImportTime" Val="1601879952"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/DisplayMuxNexysA7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/DisplayMuxNexysA7.v"/>
+        <Attr Name="ImportTime" Val="1601954386"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/PositiveClockedOneShot.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/PositiveClockedOneShot.v"/>
+        <Attr Name="ImportTime" Val="1633015212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/RAM64x7bits_template.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/RAM64x7bits_template.v"/>
+        <Attr Name="ImportTime" Val="1603141140"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/Refreshing7SegNexysA7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/Refreshing7SegNexysA7.v"/>
+        <Attr Name="ImportTime" Val="1600838716"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/SendChars2021Fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/SendChars2021Fall.v"/>
+        <Attr Name="ImportTime" Val="1632971304"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/SevenSegDriverNexysA7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/SevenSegDriverNexysA7.v"/>
+        <Attr Name="ImportTime" Val="1600830976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/UARTmodulefall2021oneshots.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/UARTmodulefall2021oneshots.v"/>
+        <Attr Name="ImportTime" Val="1633021844"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UpdateAddress.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/bbfifo_16x8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/bbfifo_16x8.v"/>
+        <Attr Name="ImportTime" Val="1269032520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/kcuart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/kcuart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/kcuart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/kcuart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032340"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab6ece433fall2021tempate circuits/lab6ece433fall2021template.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6ece433fall2021tempate circuits/lab6ece433fall2021template.v"/>
+        <Attr Name="ImportTime" Val="1633020020"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/RomInitLab6.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab6ece433fall2021template"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/lab6.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/lab6.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk80Gen"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

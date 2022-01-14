@@ -1,0 +1,529 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Nov 30 15:14:25 2021
+# Process ID: 32590
+# Current directory: /home/skillet/git/ECE433/FinalProject/FinalProject.runs/synth_1
+# Command line: vivado -log PongGame2021fall_template.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PongGame2021fall_template.tcl
+# Log file: /home/skillet/git/ECE433/FinalProject/FinalProject.runs/synth_1/PongGame2021fall_template.vds
+# Journal file: /home/skillet/git/ECE433/FinalProject/FinalProject.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source PongGame2021fall_template.tcl -notrace
+Command: synth_design -top PongGame2021fall_template -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 32636 
+WARNING: [Synth 8-2507] parameter declaration becomes local in CRTcontroller2021fall with formal parameter declaration list [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTcontroller2021fall.v:25]
+WARNING: [Synth 8-2507] parameter declaration becomes local in CRTcontroller2021fall with formal parameter declaration list [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTcontroller2021fall.v:31]
+WARNING: [Synth 8-6901] identifier 'ballX' is used before its declaration [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:18]
+WARNING: [Synth 8-6901] identifier 'ballY' is used before its declaration [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:18]
+WARNING: [Synth 8-6901] identifier 'missTimer' is used before its declaration [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in UniversalCounter2021fall with formal parameter declaration list [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/UniversalCounter2021fall.v:14]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1824.273 ; gain = 203.656 ; free physical = 1465 ; free virtual = 22096
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PongGame2021fall_template' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/PongGame2021fall_template.v:15]
+	Parameter NumberofPixels bound to: 10'b1010000000 
+	Parameter NumberofLines bound to: 10'b0111100000 
+	Parameter SystemClock bound to: 10'b0001100100 
+	Parameter CRTClock bound to: 10'b0000011001 
+INFO: [Synth 8-6157] synthesizing module 'CRTcontroller2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTcontroller2021fall.v:17]
+	Parameter ResolutionSize bound to: 10 - type: integer 
+	Parameter SystemClockSize bound to: 10 - type: integer 
+	Parameter vSynchPulse bound to: 10'b0000000010 
+	Parameter vFrontPorch bound to: 10'b0000001010 
+	Parameter vBackPorch bound to: 10'b0000011101 
+	Parameter hSynchPulse bound to: 10'b0001011111 
+	Parameter hFrontPorch bound to: 10'b0000011001 
+	Parameter hBackPorch bound to: 10'b0000101000 
+INFO: [Synth 8-6157] synthesizing module 'hsyncModule2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/hsyncModule2021fall.v:13]
+	Parameter xresolution bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FallingEdgePositiveOneShot' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/FallingEdgePositiveOneShot.v:7]
+	Parameter Initial bound to: 0 - type: integer 
+	Parameter OneShotState bound to: 1 - type: integer 
+	Parameter IdleState bound to: 2 - type: integer 
+	Parameter WaitState bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FallingEdgePositiveOneShot' (1#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/FallingEdgePositiveOneShot.v:7]
+INFO: [Synth 8-6157] synthesizing module 'UniversalCounter2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/UniversalCounter2021fall.v:7]
+	Parameter length bound to: 10 - type: integer 
+	Parameter HOLD bound to: 2'b00 
+	Parameter UP bound to: 2'b01 
+	Parameter DOWN bound to: 2'b10 
+	Parameter LOAD bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'UniversalCounter2021fall' (2#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/UniversalCounter2021fall.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'hsyncModule2021fall' (3#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/hsyncModule2021fall.v:13]
+INFO: [Synth 8-6157] synthesizing module 'vsyncModule2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/vsyncModule2021fallTemplate.v:12]
+	Parameter yresolution bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'RisingEdgePositiveOneShot' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/new/LineClockUnit.v:7]
+	Parameter Initial bound to: 0 - type: integer 
+	Parameter OneShotState bound to: 1 - type: integer 
+	Parameter IdleState bound to: 2 - type: integer 
+	Parameter WaitState bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RisingEdgePositiveOneShot' (4#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/new/LineClockUnit.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'vsyncModule2021fall' (5#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/vsyncModule2021fallTemplate.v:12]
+INFO: [Synth 8-6157] synthesizing module 'CRTClock2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTClock2021Template.v:9]
+	Parameter SystemClockSize bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CRTClock2021fall' (6#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTClock2021Template.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'CRTcontroller2021fall' (7#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTcontroller2021fall.v:17]
+INFO: [Synth 8-6157] synthesizing module 'game2021fall' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ThreeMusicNotes' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/ThreeMusicNotes.v:6]
+	Parameter NumberOfBits bound to: 20 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'InputModule' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/InputModule.v:6]
+	Parameter NumberOfBits bound to: 20 - type: integer 
+	Parameter MiddleC bound to: 95556 - type: integer 
+	Parameter MiddleD bound to: 85133 - type: integer 
+	Parameter MiddleE bound to: 75843 - type: integer 
+	Parameter OutRange bound to: 20'b00000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'InputModule' (8#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/InputModule.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Waveform' [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/WaveForm.v:6]
+	Parameter NumberOfBits bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Waveform' (9#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/WaveForm.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ThreeMusicNotes' (10#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectSoundGiven/ThreeMusicNotes.v:6]
+WARNING: [Synth 8-6014] Unused sequential element paddleHit_reg was removed.  [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:140]
+INFO: [Synth 8-6155] done synthesizing module 'game2021fall' (11#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'PongGame2021fall_template' (12#1) [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/PongGame2021fall_template.v:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1863.148 ; gain = 242.531 ; free physical = 1493 ; free virtual = 22125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1880.961 ; gain = 260.344 ; free physical = 1490 ; free virtual = 22122
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1880.961 ; gain = 260.344 ; free physical = 1490 ; free virtual = 22122
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1880.961 ; gain = 0.000 ; free physical = 1483 ; free virtual = 22115
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/constrs_1/new/PongGame.xdc]
+Finished Parsing XDC File [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/constrs_1/new/PongGame.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/constrs_1/new/PongGame.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PongGame2021fall_template_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PongGame2021fall_template_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2046.742 ; gain = 0.000 ; free physical = 1326 ; free virtual = 21957
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2046.742 ; gain = 0.000 ; free physical = 1326 ; free virtual = 21957
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1469 ; free virtual = 22101
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1469 ; free virtual = 22101
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1469 ; free virtual = 22101
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/CRTClock2021Template.v:19]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:79]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/skillet/git/ECE433/FinalProject/FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/Game2021fall.v:84]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1459 ; free virtual = 22092
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 13    
+	   4 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               20 Bit    Registers := 3     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 7     
+	   4 Input     10 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 16    
+	   5 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FallingEdgePositiveOneShot 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module UniversalCounter2021fall 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 3     
+	   4 Input     10 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module hsyncModule2021fall 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   4 Input     10 Bit       Adders := 1     
+Module RisingEdgePositiveOneShot 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module vsyncModule2021fall 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   4 Input     10 Bit       Adders := 1     
+Module CRTClock2021fall 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+Module InputModule 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 3     
+Module Waveform 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module game2021fall 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 5     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameUnit/p_0_out_inferred /\gameUnit/paddlePosition_reg[0] )
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[18]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[19]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[17]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[16]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[15]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[14]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[13]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[12]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[11]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[10]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[9]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[8]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[7]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[6]' (FDC) to 'gameUnit/note/UnitInput/NoteC_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[5]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[4]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[3]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[1]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteC_reg[0]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[18]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[19]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[17]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[17]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[16]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[15]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[14]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[14]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[12]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[13]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[12]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[11]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[10]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[9]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[8]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[7]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[6]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[5]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[4]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[3]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[2]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteE_reg[1]' (FDC) to 'gameUnit/note/UnitInput/NoteE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[18]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[19]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[17]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[17]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[16]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[15]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[13]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[14]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[13]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[12]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[12]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[9]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[11]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[10]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[9]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[8]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[8]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[6]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[7]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[6]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[5]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[4]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[3]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gameUnit/note/UnitInput/NoteD_reg[2]' (FDC) to 'gameUnit/note/UnitInput/NoteD_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameUnit/note/UnitInput/NoteD_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1443 ; free virtual = 22078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1325 ; free virtual = 21961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1325 ; free virtual = 21961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21958
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    77|
+|3     |LUT1   |    49|
+|4     |LUT2   |   135|
+|5     |LUT3   |    85|
+|6     |LUT4   |    71|
+|7     |LUT5   |    40|
+|8     |LUT6   |    78|
+|9     |FDCE   |     3|
+|10    |FDRE   |   183|
+|11    |FDSE   |    15|
+|12    |IBUF   |     4|
+|13    |OBUF   |    15|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------+---------------------------+------+
+|      |Instance               |Module                     |Cells |
++------+-----------------------+---------------------------+------+
+|1     |top                    |                           |   756|
+|2     |  VGAdisplay           |CRTcontroller2021fall      |   239|
+|3     |    CRTclockUnit       |CRTClock2021fall           |    35|
+|4     |    hsyncModule        |hsyncModule2021fall        |   105|
+|5     |      PixelClockUnit   |FallingEdgePositiveOneShot |     6|
+|6     |      XPositionCounter |UniversalCounter2021fall_2 |    94|
+|7     |    vsyncModule        |vsyncModule2021fall        |    99|
+|8     |      YPositionCounter |UniversalCounter2021fall   |    89|
+|9     |      lineClockUnit    |RisingEdgePositiveOneShot  |     5|
+|10    |  gameUnit             |game2021fall               |   497|
+|11    |    note               |ThreeMusicNotes            |   163|
+|12    |      NoteCWave        |Waveform                   |    52|
+|13    |      NoteDWave        |Waveform_0                 |    52|
+|14    |      NoteEWave        |Waveform_1                 |    52|
+|15    |      UnitInput        |InputModule                |     6|
++------+-----------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1322 ; free virtual = 21957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2046.742 ; gain = 260.344 ; free physical = 1375 ; free virtual = 22010
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 2046.742 ; gain = 426.125 ; free physical = 1375 ; free virtual = 22010
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2046.742 ; gain = 0.000 ; free physical = 1456 ; free virtual = 22091
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2046.742 ; gain = 0.000 ; free physical = 1401 ; free virtual = 22037
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+97 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2046.742 ; gain = 606.383 ; free physical = 1532 ; free virtual = 22168
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2046.742 ; gain = 0.000 ; free physical = 1532 ; free virtual = 22168
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/skillet/git/ECE433/FinalProject/FinalProject.runs/synth_1/PongGame2021fall_template.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PongGame2021fall_template_utilization_synth.rpt -pb PongGame2021fall_template_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 30 15:15:00 2021...

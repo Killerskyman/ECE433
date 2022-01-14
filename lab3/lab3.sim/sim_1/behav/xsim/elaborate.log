@@ -8,7 +8,7 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lab3Detect11001fall2021
 Compiling module xil_defaultlib.lab3detectUnitTB
 Compiling module xil_defaultlib.glbl
-ERROR: [XSIM 43-3409] Failed to compile generated C file xsim.dir/lab3detectUnitTB_behav/obj/xsim_1.c.
-ERROR: [XSIM 43-3915] Encountered a fatal error. Cannot continue. Exiting... 
+Built simulation snapshot lab3detectUnitTB_behav

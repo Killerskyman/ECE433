@@ -1,0 +1,15 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Tue Nov 30 15:31:59 2021
+| Host         : skilletLaptop running 64-bit Debian GNU/Linux 10 (buster)
+| Command      : report_bus_skew -warn_on_violation -file Lab6ece433fall2021template_bus_skew_routed.rpt -pb Lab6ece433fall2021template_bus_skew_routed.pb -rpx Lab6ece433fall2021template_bus_skew_routed.rpx
+| Design       : Lab6ece433fall2021template
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

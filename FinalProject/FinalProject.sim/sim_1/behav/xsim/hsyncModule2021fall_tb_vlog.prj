@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FinalProject.srcs/sources_1/ip/Clock50MHzGenerator" \
+"../../../../FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/FallingEdgePositiveOneShot.v" \
+"../../../../FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/UniversalCounter2021fall.v" \
+"../../../../FinalProject.srcs/sources_1/imports/FinalProjectGivenFiles/hsyncModule2021fall.v" \
+"../../../../FinalProject.srcs/sim_1/imports/FinalProjectGivenFiles/hsyncModule2021fall_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
